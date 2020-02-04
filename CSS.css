@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap');
+body {
+	background-color: #BEB4DA;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	border-bottom: 780px solid purple;
+	padding: 0px;
+	color: green;
+}
+div {
+	border-top: 30px solid green;
+	border-bottom: 40px solid green;
+	padding: 20px;
+}
+p {background-color: pink;}
+ol { list-style-type:<!-- look i know how to do this but i dont wana i like it like this please dont hurt me i have a wife 2 kids and uh a toilet --> ;
+}
+hr  {
+		height: 1242px;
+}
+	#adonis {
+			background-color: black;
+}
+		
+#mortal {
+font-family: 'Walter Turncoat', cursive;	
+}
