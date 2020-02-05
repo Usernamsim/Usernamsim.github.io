@@ -8,8 +8,6 @@ body {
 	color: green;
 }
 div {
-	border-top: 30px solid green;
-	border-bottom: 40px solid green;
 	padding: 20px;
 }
 p {background-color: pink;}
