@@ -8,6 +8,25 @@
 </head>
 <body>
 	<style type="text/css">
+
+#adonis {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: shake;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+</style>
 body {
 background-image: url("Images/purpsky.jpg");
 }
@@ -25,7 +44,7 @@ background-image: url("Images/purpsky.jpg");
 			
 		<h1> HOW WILL YOU NAVIGATE MY PALACE OF A WEBSITE?! LIVE OR DIE. THE CHOISE IS YOURS </h1>
 		<h2> <a href="Aboutme.html">about me</a> </h2>
-		<h2 id="adonis"> <a href="downwardspiral.html">the gamerzone</a> </h2>
+		<h2 id="adonis" > <a href="downwardspiral.html">the gamerzone</a> </h2>
 		
  </body>
 </html>
